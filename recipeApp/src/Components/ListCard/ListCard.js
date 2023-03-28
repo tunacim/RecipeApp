@@ -1,11 +1,11 @@
 import React from "react";
 import { View,Text } from "react-native";
 import styles from "./ListCard.style"
-function ListCard(){
+function ListCard({item}){
     return(
         <View style={styles.container}>
-            <Text style={styles.name}>RecipeName</Text>
-            <Text style={styles.description}>RecipeDescription</Text>
+            <Text style={styles.name}>{item.name}</Text>
+            <Text style={styles.description}>{item.description}</Text>
         </View>
     )
 }
