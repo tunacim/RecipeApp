@@ -1,6 +1,6 @@
 import React from "react";
 import { View,FlatList, Text} from "react-native";
-import RecipeCard from "../../Components/RecipeCard";
+
 import UseFetch from "../../Hooks/UseFetch";
 import styles from "./Recipe.style"
 
