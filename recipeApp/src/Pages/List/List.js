@@ -1,13 +1,13 @@
 import React from "react";
-import { SafeAreaView,View,Text} from "react-native";
+import { SafeAreaView,View,FlatList} from "react-native";
+import ListCard from "../../Components/ListCard";
 
 const List=()=>{
     return(
-        <SafeAreaView>
-            <View>
-                <Text>Recipe Page</Text>
-            </View>
-        </SafeAreaView>
+       <View>
+            <ListCard></ListCard>
+           <FlatList data={null} renderItem={null}></FlatList>
+        </View>
     )
 }
 export default List
